@@ -21,7 +21,7 @@ function Footer(){
 							<p className="linkF" id="com" >Refund Policy</p>
 					</Link>
 				</p>
-                <p className="copy" >ChemistryWorld &copy; 2023</p>
+                <p className="copy" >Chemictionary &copy; 2023</p>
             </div>
         </div>
     )

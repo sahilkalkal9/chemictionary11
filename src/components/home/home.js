@@ -24,7 +24,7 @@ function Home(){
 							<span className="dictionary-home" id="dh" >DICTIONARY</span> OF CHEMISTRY
 						</p>
 						<p className="sub-tagline-home" >
-							<span className="ChemistryWorld-home"> ChemistryWorld </span>
+							<span className="Chemictionary-home"> Chemictionary </span>
 							is a <span className="simple-home">simple</span>, 
 							<span className="fast-home"> fast </span> 
 							and <span className="easy-home"> easy </span> platform to build the concepts of <span className="chem-home">chemistry.</span>	  
@@ -133,7 +133,7 @@ export default Home;
 						<span className="dictionary-home">DICTIONARY</span> OF CHEMISTRY.
 					</p>
 					<p className="sub-tagline-home" >
-						<span className="ChemistryWorld-home"> ChemistryWorld </span>
+						<span className="Chemictionary-home"> Chemictionary </span>
 						  is a <span className="simple-home">simple</span>, 
 						  <span className="fast-home"> fast </span> 
 						  and <span className="easy-home"> easy </span> platform to build the concepts of <span className="chem-home">chemistry</span>
@@ -221,7 +221,7 @@ export default Home;
 				// 		<span className="dictionary-home">DICTIONARY</span> OF CHEMISTRY.
 				// 	</p>
 				// 	<p className="sub-tagline-home" >
-				// 		<span className="ChemistryWorld-home"> ChemistryWorld </span>
+				// 		<span className="Chemictionary-home"> Chemictionary </span>
 				// 		  is a <span className="simple-home">simple</span>, 
 				// 		  <span className="fast-home"> fast </span> 
 				// 		  and <span className="easy-home"> easy </span> platform to build the concepts of <span className="chem-home">chemistry</span>
