@@ -1,0 +1,104 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+
+.Footer {
+    padding: 2vh;
+    margin-top: 2.5cm;
+    // background-color: gray;
+    // font-family: roboto;
+
+
+
+}
+
+.copy {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.footer-container {
+    color: #28282b;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    row-gap: .1cm;
+    // font-weight: 600;
+}
+
+.red-foot {
+    width: .4cm;
+    height: .4cm;
+}
+
+.linkF {
+    color: rgb(64, 64, 232);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.linkF:hover {
+    text-decoration: underline;
+}
+
+.inform {
+    color: rgb(64, 64, 232);
+
+}
+
+.inform:hover {
+    text-decoration: underline;
+}
+
+.sitemap {
+    display: flex;
+    justify-content: center;
+    column-gap: .3cm;
+}
+
+
+@media screen and (max-width:900px) {
+    .footer-container {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .linkF {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .footer-container {
+        font-size: 13px;
+    }
+
+    .red-foot {
+        width: .3cm;
+        height: .3cm;
+    }
+
+    .linkF {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:500px){
+    .copy{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:450px) {
+    .sitemap {
+        flex-direction: column;
+        row-gap: .1cm;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .footer-container {
+        font-size: 12px;
+    }
+
+    .linkF {
+        font-size: 11px;
+    }
+
+}

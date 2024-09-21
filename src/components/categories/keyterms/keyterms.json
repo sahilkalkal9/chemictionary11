@@ -1,0 +1,155 @@
+[
+  {
+    "name" : "Mass"
+  },
+  {
+    "name" : "Weight"
+  },
+  {
+    "name" : "Density"
+  },
+  {
+    "name" : "Temperature"
+  },
+  {
+    "name" : "Mass Percent"
+  },
+  {
+    "name" : "Mole Fraction"
+  },
+  {
+    "name" : "Molarity"
+  },
+  {
+    "name" : "Molality"
+  },
+  {
+    "name" : "Threshold Frequency"
+  },
+  {
+    "name" : "Spectrum"
+  },
+  {
+    "name" : "Continuous Spectrum"
+  },
+  {
+    "name" : "Emission Spectrum"
+  },
+  {
+    "name" : "Line Spectra or Atomic Spectra"
+  },
+  {
+    "name" : "Angular Momentum"
+  },
+  {
+    "name" : "Atomic Radius"
+  },
+  {
+    "name" : "Ionic Radius"
+  },
+  {
+    "name" : "Ionization Enthalpy"
+  },
+  {
+    "name" : "Electron Gain Enthalpy"
+  },
+  {
+    "name" : "Electronegativity"
+  },
+  {
+    "name" : "Chemical Bond"
+  },
+  {
+    "name" : "Covalent Bond"
+  },
+  {
+    "name" : "Octet Rule"
+  },
+  {
+    "name" : "Electrovalent Bond"
+  },
+  {
+    "name" : "Lattice Enthalpy"
+  },
+  {
+    "name" : "Bond Length"
+  },
+  {
+    "name" : "Bond Angle"
+  },
+  {
+    "name" : "Bond Enthalpy"
+  },
+  {
+    "name" : "Bond Order"
+  },
+  {
+    "name" : "Compressibility Factor"
+  },
+  {
+    "name" : "Boyle Point"
+  },
+  {
+    "name" : "Critical Temperature"
+  },
+  {
+    "name" : "Critical Pressure"
+  },
+  {
+    "name" : "Critical Volume"
+  },
+  {
+    "name" : "Vapour Pressure"
+  },
+  {
+    "name" : "Surface Tension"
+  },
+  {
+    "name" : "Viscosity"
+  },
+  {
+    "name" : "Oxidation"
+  },
+  {
+    "name" : "Reduction"
+  },
+  {
+    "name" : "Oxidising Agent"
+  },
+  {
+    "name" : "Reducing Agent"
+  },
+  {
+    "name" : "Oxidation Number"
+  },
+  {
+    "name" : "Redox Couple"
+  },
+  {
+    "name" : "Silicates"
+  },
+  {
+    "name" : "Zilicates"
+  },
+  {
+    "name" : "Functional Group"
+  },
+  {
+    "name" : "Homologous Series"
+  },
+  {
+    "name" : "Nucleophile"
+  },
+  {
+    "name" : "Electrophile"
+  },
+  {
+    "name" : "Sublimation"
+  },
+  {
+    "name" : "Crystillisation"
+  },
+  {
+    "name" : "Distillation"
+  }
+]

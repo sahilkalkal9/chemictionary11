@@ -1,0 +1,40 @@
+.Message {
+    min-height: 63vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-c {
+    background-color: #ddddf8;
+    text-align: left;
+    padding: 2vh 3vw 2vh 3vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.lnkm {
+    color: blue;
+    // font-weight: 600;
+}
+
+.msgh {
+    font-family: bree serif;
+    font-weight: 500;
+    color: #2c3941;
+}
+
+.msg-text {
+    font-size: 17px;
+}
+
+@media screen and (max-width : 500px) {
+    .msg-text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width : 300px) {
+    .msg-text {
+        font-size: 14px;
+    }
+}

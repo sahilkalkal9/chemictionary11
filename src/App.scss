@@ -1,0 +1,173 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  // height: 100vh;
+  // background-color: whitesmoke;
+  color: black;
+  // display: grid;
+  // grid-template-rows: 10vh 90vh;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  padding: 0vh 5vw 0vh 5vw;
+  margin-bottom: -10vh;
+  // overflow: scroll;
+  //  overflow: hidden;
+  // font-family: monospace;
+
+}
+
+@media screen and (min-width:1600px) {
+  .App {
+    padding: 0vh 10vw;
+  }
+}
+
+.pr {
+  position: relative;
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: .7s all ease;
+}
+
+.pr.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+h1 {
+  margin: 0px 0px;
+}
+
+h2 {
+  margin: 0px 0px;
+}
+
+h3 {
+  margin: 0px 0px;
+}
+
+h4 {
+  margin: 0px 0px;
+}
+
+h5 {
+  margin: 0px 0px;
+}
+
+p {
+  margin: 0px 0px;
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  animation: theme 200s linear infinite;
+  background-color: rgb(231, 229, 229);
+
+  &:after,
+  &:before {
+    content: '';
+    display: block;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    width: 100vw; // IE/Edge
+    height: 100vh; // fallback
+    width: 100vmax;
+    height: 100vmax;
+    background: rgba(0, 0, 0, 0.05);
+    // background-color: white;
+    animation: backgroundd 200s linear infinite;
+  }
+
+  &:after {
+    left: 15vw;
+  }
+
+  &:before {
+    right: 15vw;
+    animation-delay: -30s;
+    animation-direction: reverse;
+  }
+}
+
+@keyframes theme {
+  0% {
+    background: #f5fdff;
+  }
+
+  16% {
+    background: #f4fffb;
+  }
+
+  33% {
+
+    background: #fffcf3
+  }
+
+  50% {
+    background: #f5fff4;
+  }
+
+  66% {
+    background: #fffdf2;
+  }
+
+  83% {
+    background: #f3f8ff;
+
+  }
+
+  100% {
+    background: #f5fdff;
+  }
+}
+
+@keyframes backgroundd {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  height: 0px;
+  transition: .3s;
+}
+
+
+
+
+::-webkit-scrollbar-track {
+  background: rgb(238, 235, 235);
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(155, 155, 159);
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(118, 116, 118);
+}
+
+
+.seeCon {
+  padding: .3cm .6cm;
+  background-color: blueviolet;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+ 
+}

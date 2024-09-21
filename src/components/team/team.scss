@@ -1,0 +1,136 @@
+.Team {
+    min-height: 63vh;
+}
+
+.t-img {
+    border-radius: 100px;
+}
+
+.team-container {
+    width: fit-content;
+    margin-top: 2cm;
+    padding: .5cm 0.5cm .5cm 0.5cm;
+    background-color: #bdc0f1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgba(0, 0, 0, 0.23) 0px 1px 3px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // border: 1px solid black;
+}
+.tm{
+    background-color: transparent;
+    box-shadow: none;
+    // box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgba(0, 0, 0, 0.23) 0px 1px 3px;
+
+}
+.tm:hover{
+    background-color: transparent;
+
+}
+.tfill{
+    background-color: rgb(20, 158, 64);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgba(0, 0, 0, 0.23) 0px 1px 3px;
+    font-size: 17px;
+    font-family: roboto;
+    font-weight: 500;
+
+}
+.tfill:hover{
+    background-color: rgb(16, 137, 54);
+
+}
+
+.team-name {
+    font-family: Inika;
+    // font-weight: 500;
+}
+
+.team-post{
+    color: rgb(85, 84, 84);
+}
+
+.tjoin{
+    color: rgb(62, 62, 62);
+}
+
+// .team-cat{
+//     border-radius: 50px;
+// }
+.team-cat:hover {
+    transform: scale(1);
+}
+
+
+.fill-form {
+
+    color: black;
+}
+
+.team-cat-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: .3cm;
+    transition: .2s;
+
+}
+
+.socials {
+    display: flex;
+
+    column-gap: .2cm;
+    justify-content: center;
+}
+
+.team-cat-container:hover {
+    .social-team {
+        display: flex;
+        flex-direction: column;
+        column-gap: .2cm;
+        justify-content: center;
+        opacity: 1;
+    }
+}
+
+.port {
+    width: auto;
+    height: auto;
+    transform: scale(1.05);
+}
+
+.social-team {
+    transition: .7s;
+    display: none;
+    opacity: 0;
+    // z-index: -1;
+    // display: flex;
+    // column-gap: .2cm;
+    // justify-content: center;
+}
+
+// @media screen and (min-width:1700px){
+//     .team-post{
+//         font-size: 20px;
+//     }
+// }
+@media screen and (max-width:600px) {
+    .team-post {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .team-container {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .team-post {
+        font-size: 14px;
+    }
+
+    .team-container {
+        width: 70vw;
+    }
+}

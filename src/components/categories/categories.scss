@@ -1,0 +1,365 @@
+.Categories {
+
+	h1 {
+		font-weight: 450;
+	}
+
+	display: flex;
+	flex-direction: column;
+	// height: 0vh;
+	min-height: 60vh;
+	// row-gap:.2cm;
+	align-items: center;
+}
+
+.categories-head {
+	font-size: 35px;
+	font-weight: 500;
+
+	font-family: Bree Serif;
+	// border-right: .15em solid orange;
+	// letter-spacing: .07cm;
+	// line-height: 1.2cm;
+	// color: blueviolet;
+	color: rgb(96, 96, 96);
+	overflow: hidden;
+	white-space: nowrap;
+	// animation: typing 4s steps(40, end);
+
+}
+
+@keyframes typing {
+	0% {
+		width: 0
+	}
+
+	15% {
+		width: 15%;
+	}
+
+	30% {
+		width: 30%;
+	}
+
+	45% {
+		width: 45%;
+	}
+
+	60% {
+		width: 60%;
+	}
+
+	75% {
+		width: 75%;
+	}
+
+	90% {
+		width: 90%;
+	}
+
+	100% {
+		width: 100%
+	}
+}
+
+.choose {
+	font-size: 20px;
+	font-family: inika;
+}
+ 
+.categories-container {
+
+	display: flex;
+	
+	flex-wrap: wrap;
+
+	justify-content: center;
+	
+	
+	align-items: flex-start;
+	column-gap: .6cm;
+	row-gap: .6cm;
+
+}
+
+.category {
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	
+	background-color: #d8affc;
+	border-radius: 5px;
+	
+	cursor: pointer;
+	font-weight: 600;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgba(0, 0, 0, 0.23) 0px 1px 3px;
+
+	
+	
+}
+
+.category:hover {
+	background-color: #cb98f6;
+
+
+}
+ 
+.cat-img {
+	width: 5cm;
+	height: 5cm;
+	transition: .3s;
+}
+
+.category-content {
+	padding: 1vh 3vh 1vh 3vh;
+	
+
+	h1 {
+		font-size: 25px;
+		margin: 0px 0px;
+		// font-weight: 100/	;
+		transition: .3s;
+		font-weight: 400;
+		font-family: bree serif;
+		// line-height: .55cm;
+		// color: #2c3941;
+		color: #38383d;
+		// letter-spacing: .03cm;
+	}
+
+	p {
+		font-weight: 500;
+	}
+
+}
+
+.category-link {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+// @media screen and (min-width:1700px){
+// 	.category{
+// 		width: 8cm;
+// 	}
+// 	.cat-img{
+// 		width: 6cm;
+// 		height: 6cm;
+// 	}
+// 	.category-content{
+
+// 		h1{
+// 			font-size: 32px;
+
+// 		}
+
+
+
+// 	}
+// 	.categories-head{
+// 		font-size: 80px;
+
+// 	}
+// }
+@media screen and (max-width: 800px) {
+	.categories-head {
+		font-size: 33px;
+	}
+
+	.choose {
+		font-size: 16px;
+	}
+
+	.category-content {
+
+		h1 {
+			font-size: 25px;
+			margin: 0px 0px;
+			// font-weight: 500;
+			transition: .3s;
+		}
+
+		p {
+			font-size: 16px;
+		}
+
+	}
+
+
+	.cat-img {
+		width: 4cm;
+		height: 4cm;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.categories-head {
+		font-size: 30px;
+		// animation: typing 2s steps(40, end);
+	}
+
+	.choose {
+		font-size: 14px;
+	}
+
+	.category-content {
+
+		h1 {
+			font-size: 20px;
+			margin: 0px 0px;
+			// font-weight: 500;
+			transition: .3s;
+		}
+
+		p {
+			font-size: 14px;
+		}
+	}
+
+	
+
+	.cat-img {
+		width: 3cm;
+		height: 3cm;
+	}
+}
+@media screen and (max-width: 500px) {
+	.categories-head {
+		font-size: 28px;
+		// animation: typing 2s steps(40, end);
+	}
+
+	.choose {
+		font-size: 14px;
+	}
+
+	.category-content {
+
+		h1 {
+			font-size: 19px;
+			margin: 0px 0px;
+			// font-weight: 500;
+			transition: .3s;
+		}
+
+		p {
+			font-size: 14px;
+		}
+	}
+	.sub-search{
+		font-size: 12px;
+	}
+	.category {
+		
+		max-width: 80vw;
+	}
+
+	.cat-img {
+		width: 3cm;
+		height: 3cm;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.categories-head {
+		font-size: 27px;
+	}
+
+	.choose {
+		font-size: 12px;
+	}
+
+	.category-content {
+
+		h1 {
+			font-size: 16px;
+			margin: 0px 0px;
+			// font-weight: 500;
+			transition: .3s;
+		}
+
+		p {
+			font-size: 12px;
+		}
+	}
+
+	.category {
+		
+		max-width: 80vw;
+	}
+
+	.cat-img {
+		width: 2.5cm;
+		height: 2.5cm;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.categories-head {
+		font-size: 22px;
+	}
+
+	.choose {
+		font-size: 10px;
+	}
+
+	.category-content {
+
+		h1 {
+			font-size: 16px;
+			margin: 0px 0px;
+			// font-weight: 500;
+			transition: .3s;
+		}
+
+		p {
+			font-size: 12px;
+		}
+	}
+
+	.category {
+		
+		max-width: 80vw;
+	}
+
+	.cat-img {
+		width: 2.5cm;
+		height: 2.5cm;
+	}
+}
+
+@media screen and (max-width: 200px) {
+	.categories-head {
+		font-size: 20px;
+	}
+
+	.choose {
+		font-size: 10px;
+	}
+
+	.category-content {
+
+		h1 {
+			font-size: 17px;
+			margin: 0px 0px;
+			// font-weight: 500;
+			transition: .3s;
+		}
+
+		p {
+			font-size: 12px;
+		}
+	}
+
+	.category {
+		
+		max-width: 80vw;
+	}
+
+	.cat-img {
+		width: 2.5cm;
+		height: 2.5cm;
+	}
+}

@@ -1,0 +1,270 @@
+// .heading-dr
+// {
+//     display: flex;
+   
+// }
+.cmnt-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dcomment{
+    width: .6cm;
+    height: .6cm;
+    cursor: pointer;
+}
+.delete-cmnt{
+    width: .8cm;
+    height: .8cm;
+}
+.cmnt-photo{
+    width: 1cm;
+    height: 1cm;
+    border-radius: 50px;
+}
+.comment-name-section{
+    display: flex;
+    align-items: center;
+    column-gap: .2cm;
+    // justify-content: space-between;
+    // column-gap: 3cm;
+    
+
+}
+.lcm{
+    background-color: rgb(102, 199, 82);
+    color: #000;
+    font-size: 16px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: .2cm;
+}
+
+.pcm{
+    background-color: rgb(197, 155, 218);
+    font-size: 16px;
+    color: black;
+    margin-top: .2cm;
+    font-family: roboto;
+    
+}
+.comment-save{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.shm{
+    background-color: #a3c1ee;
+    color: #000;
+    font-size: 16px;
+    font-family: roboto;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.comment-box{
+    font-size: 16px;
+    border: none;
+    border-bottom: .5px solid  gray;
+    box-shadow: none;
+    background-color: white;
+    border-radius: 0px;
+    padding: .1cm;
+}
+.comment-date{
+    font-size: 12px;
+    color: gray;
+}
+.comment-name{
+    font-size: 18px;
+}
+.comment{
+    font-size: 17px;
+    padding: .3cm .3cm .3cm 1.2cm;
+}
+.comments-container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.comment-section{
+    border-bottom: .5px  solid lightgrey;
+}
+.content-rxn
+{
+    text-align: left;
+    padding: 2vh 3vw 2vh 3vw;
+   background-color: white;
+//    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+.rx-desc{
+    // font-family: Inika;
+    font-size: 18px;
+}
+.rx-head{
+    text-align: left;
+    font-size: 30px;
+    font-family: Inika;
+    color: blueviolet;
+}
+.head-det{
+    display: flex;
+    justify-content: space-between;
+}
+.mode{
+   
+    width: .6cm;
+    height: .6cm;
+    cursor: pointer;
+    user-select: none;
+  }
+@media screen and (min-width:1600px)
+{
+    .rx-head{
+        
+        font-size: 40px;
+        
+    }
+    .rx-desc{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:900px){
+    .comment-save{
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+    }
+    
+}
+// @media screen and (max-width:700px){
+//     .comment-box{
+//         font-size: 16px;
+        
+//     }
+// }
+@media screen and (max-width:500px){
+    .mode{
+        width: .6cm;
+        height: .6cm;
+    }
+    .comment-name{
+        font-size: 17px;
+    }
+    .comment{
+        font-size: 16px;
+    }
+  }
+
+  
+@media print{
+    .heading-dr{
+        display: none;
+    }
+    .dr{
+        display: none;
+    }
+}
+@page{
+    size: A4;
+}
+@media screen and (max-width:600px){
+    .rx-desc{
+        font-size: 17px;
+    }
+    .content-rxn{
+        h2{
+            font-size: 22px;
+        }
+        h3{
+            font-size: 19px;
+        }
+    }
+
+} 
+@media screen and (max-width:500px){
+    .rx-desc{
+        font-size: 16px;
+    }
+    .content-rxn{
+        h2{
+            font-size: 20px;
+        }
+        h3{
+            font-size: 17px;
+        }
+    }
+    .rx-head{
+        
+        font-size: 25px;
+       
+    }
+
+}
+@media screen and (max-width:400px){
+    .rx-desc{
+        font-size: 16px;
+    }
+    .content-rxn{
+        h2{
+            font-size: 19px;
+        }
+        h3{
+            font-size: 16px;
+        }
+    }
+    .rx-head{
+        
+        font-size: 23px;
+       
+    }
+    
+   
+}
+@media screen and (max-width:300px){
+    .rx-desc{
+        font-size: 15px;
+    }
+    .content-rxn{
+        h2{
+            font-size: 18px;
+        }
+        h3{
+            font-size: 15px;
+        }
+    }
+    .rx-head{
+        
+        font-size: 21px;
+       
+    }
+    .comment-name{
+        font-size: 15px;
+    }
+    .comment{
+        font-size: 14px;
+    }
+    .cmnt-photo{
+        width: .85cm;
+        height: .85cm;
+    }
+}
+@media screen and (max-width:280px){
+    .rx-desc{
+        font-size: 13px;
+    }
+    .content-rxn{
+        h2{
+            font-size: 16px;
+        }
+        h3{
+            font-size: 13px;
+        }
+    }
+    .rx-head{
+        
+        font-size: 18px;
+       
+    }
+    
+}

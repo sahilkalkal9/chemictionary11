@@ -1,0 +1,178 @@
+.Subscription {
+	width: fit-content;
+	// border: 1px solid black;
+	border-radius: 10px;
+	padding: 2vh 2vw 2vh 2vw;
+
+	background-color: #c1fbc1;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+.cst{
+	color: rgb(63, 63, 63);
+	font-size: 18px;
+}
+.sub-name {
+	display: flex;
+	column-gap: .1cm;
+	justify-content: center;
+	align-items: center;
+	// font-weight: 400;
+}
+
+.sub-list {
+	display: flex;
+	flex-direction: column;
+	row-gap: .2cm;
+}
+
+.sub-box {
+
+	background-color: rgb(211, 211, 249);
+	border-radius: 5px;
+
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgba(0, 0, 0, 0.23) 0px 1px 3px;
+
+}
+
+.sub-or {
+	padding: 0cm 0cm .3cm 0cm;
+}
+
+.free-t {
+	color: blue;
+
+	cursor: pointer;
+	padding: 0cm .3cm .3cm .3cm;
+}
+
+.free-t:hover {
+	text-decoration: underline;
+}
+
+// .sub-box:hover{
+// 	box-shadow: rgba(2, 0, 0, 0.978) 0px 0px 0px 2px;
+
+// }
+.no-dbt {
+	text-decoration: line-through;
+	text-decoration-thickness: 1.3px;
+}
+
+// .sub-list-con{
+//     font-size: 15px;
+
+// }
+.amt {
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.amt-section {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+
+
+@media screen and (max-width: 800px) {
+
+	.category-content {
+
+		h2 {
+			font-size: 25px;
+			margin: 0px 0px;
+			// font-weight: 500;
+			transition: .3s;
+		}
+
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	.category-content {
+
+		h2 {
+			font-size: 25px;
+			margin: 0px 0px;
+			// font-weight: 500;
+			transition: .3s;
+		}
+
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+	.Subscription {
+		width: 80vw;
+	}
+
+	.amt {
+		font-size: 16px;
+	}
+
+	.free-t {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+
+	.category-content {
+
+		h2 {
+			font-size: 22px;
+			margin: 0px 0px;
+			// font-weight: 500;
+			transition: .3s;
+		}
+
+	}
+
+	.amt {
+		font-size: 14px;
+	}
+
+	.tri-g {
+		width: 75vw;
+	}
+
+}
+
+@media screen and (max-width: 300px) {
+
+	.category-content {
+
+		h2 {
+			font-size: 19px;
+			margin: 0px 0px;
+			// font-weight: 500;
+			transition: .3s;
+		}
+
+	}
+
+	.sub-box {
+		width: 75vw;
+	}
+
+	.free-t {
+		font-size: 13px;
+	}
+
+}
+
+@media screen and (max-width: 200px) {
+
+	.category-content {
+
+		h2 {
+			font-size: 17px;
+			margin: 0px 0px;
+			// font-weight: 500;
+			transition: .3s;
+		}
+	}
+}
